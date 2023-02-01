@@ -1,0 +1,208 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all .1s ease-in;
+}
+.container{
+    max-width: 1230px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    border-bottom: #BDBDBD 2px solid;
+}
+header nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.header-li a:hover{
+    color: #18B5DC;
+    transition: 0.5s all;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+}
+button:hover{
+    background: #18B5DC;
+    transition: 0.5s all;
+    color: white;
+}
+
+.photoAndOffers ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.li_maindiv{
+    position: relative;
+    /*border: #18B5DC 2px solid;*/
+}
+.socialdiv{
+    text-align: center;
+    /*border: red 2px solid;*/
+    position:absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialdiv:hover{
+    background: #18B5DC;
+    transition: 0.5s all;
+}
+
+.socialdiv a{
+    width: 42px;
+    height: 42px;
+    background: #5DCBE6;
+    /*ФОН РОЗТЯГУВАТИ ПРОСТО?ДЛЯ ЧОГО*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*ФОН РОЗТЯГУВАТИ ПРОСТО?ДЛЯ ЧОГО*/
+    /*WTF ITS?*/
+    opacity: 0;
+    /*WTF ITS?*/
+}
+.socialdiv a:hover{
+    background:white ;
+}
+.socialdiv ul{
+    height: 270px;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+.socialdiv path{
+    fill: #FFFFFF;
+    /*fill: #FFFFFF;*/
+}
+.socialdiv a:hover path{
+    fill: #5DCBE6;
+    transition: .2s all;
+
+}
+.socialdiv:hover.socialdiv a{
+    opacity: 1;
+    transition: 0.5s all;
+}
+/*NASTROIKA TEKSTA*/
+h1{
+   font-size: 34px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 64px;
+}
+hr{
+max-width: 40px;
+    height: 3px;
+    border-radius: 20px;
+    background: black;
+    margin: 0 auto;
+}
+.loremtext{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.card-list__name{
+    width: 170px;
+    height: 22px;
+    left: 600px;
+    top: 290px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+.card-list__who{
+    width: 170px;
+    height: 22px;
+    left: 300px;
+    top: 311px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+.main_section{
+    padding-bottom: 150px;
+    background-color: #F6F6F6;
+    /*background-color: #6e4f4f;*/
+}
+.footerlogo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.nav_in_footer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.nav_in_footer ul li{
+    width: 81px;
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    /*text-transform: uppercase;*/
+}
+.nav_in_footer li a:hover{
+    color: #18B5DC;
+    transition: 0.5s all;
+}
+.iconInFooter{
+    padding-bottom: 40px;
+}
+
+.footericons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footericons svg{
+    fill: #18B5DC;
+    background: none;
+    border: #18B5DC 1px solid;
+}
+.footericons svg:hover{
+    fill:#FFFFFF;
+    background: #18B5DC;
+}
